@@ -25,7 +25,7 @@ public class Genericfunction {
         Integer intMax;
         Double[] doubleArray= {1.1,2.2,3.3,4.4};
         Double doubleMax;
-        String[] strArray= {"apple","orange","banana","welcome"};
+        String[] strArray= {"akhshy","abhijith","faizul","sanjai"};
         String strMax;
         intMax=max(intArray);
         System.out.println("Max integer: "+intMax);
