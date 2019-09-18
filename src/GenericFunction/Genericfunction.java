@@ -1,3 +1,9 @@
+/*
+ * Program to perform Generic Function
+ *  By Faizul
+ *  faizulsmart10@gmail.com
+ */
+
 package GenericFunction;
 
 public class Genericfunction {
