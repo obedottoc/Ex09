@@ -1,3 +1,4 @@
+//**developed by HARIHARAN**//
 package genericfunction;
 
 public class GenericElements {
@@ -15,11 +16,11 @@ public class GenericElements {
 }
 
 public static void main(String[] arg) {
-	 Integer[] intArray = { 1, 2, 3, 4, 5 };
+	 Integer[] intArray = {11,22,33,44,55};
 	 Integer intMax;
-     Double[] doubleArray = { 1.0, 1.5, 2.0, 2.5, 3.0 };
+     Double[] doubleArray = { 11.0, 22.5, 33.0, 44.5, 55.0 };
      Double doubleMax;
-     String[] strArray= {"Apple","Sony","MI","Honor","Vivo"};
+     String[] strArray= {"aa","bb","cc","dd","ee"};
      String strMax;
      intMax=GenericElements.Max(intArray);
      System.out.println("Intger Max="+intMax);
