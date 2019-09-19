@@ -1,3 +1,8 @@
+/**
+ * Program to create Generic Function
+ * created by Akhshy Ganesh
+ * gmail : akhshyganeshb@gmail.com
+ */
 package GenericFunction;
 
 public class GenericElements {
