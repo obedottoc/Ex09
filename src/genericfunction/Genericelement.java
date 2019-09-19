@@ -1,3 +1,8 @@
+/**
+ * To create generic function
+ * @author harsha vardhan reddy
+ * reddyharsha298@gmail.com
+ */
 package genericfunction;
 
 public class Genericelement {
