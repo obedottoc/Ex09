@@ -14,7 +14,7 @@ public class Genericfunction {
       for(T e:element)
       {
           if(e.compareTo(m)>0)
-              m=e;
+             m=e;
       }
        
       return m;
