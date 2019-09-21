@@ -1,34 +1,33 @@
 package maximum;
-public class  GenericMaximum{
+  public class GenericMaximum {
+	 public static <E extends Comparable<E>> E max (E[] element)
+	    { E m;
+	      m=element[0];
+	      for(E e:element)
+	      {
+	          if(e.compareTo(m)>0)
+	              m=e;
+	      }
+	       
+	      return m;
+	    }
 
-	public static <E extends Comparable<E>>E Max (E[] elements) {
-		E m;
-		m=elements[0];
-		for(E e:elements)
-		{if(e.compareTo(m)>0);
-		{
-			m=e;
-		}
+	public static void main(String[] args) {
+		Integer[] intArray= {10,49,56,78,55};
+		Integer intMax;
+		Double[] doubleArray= {5.9,7.65,2.46,3.42,4.47};
+		Double doubleMax;
+		String[] strArray= {"hari","surya","dharma","sumanth"};
+		String strMax;
+		intMax=max(intArray);
+		System.out.println("Maximum of given integer:"+intMax);
+		doubleMax=max(doubleArray);
+		System.out.println("Maximum of given double:"+doubleMax);
+		strMax=max(strArray);
+		System.out.println("Maximum of given string:"+strMax);
+		
+
+
 	}
-		return m;
-}
 
-public static void main(String[] arg) {
-	 Integer[] intArray = {12,78,7,67,32};
-	 Integer intMax;
-     Double[] doubleArray = { 12.0, 23.5, 34.0, 4.5, 7.0 };
-     Double doubleMax;
-     String[] strArray= {"aa","bb","cc","dd","ee"};
-     String strMax;
-     intMax=GenericMaximum.Max(intArray);
-     System.out.println("Intger Max="+intMax);
-     doubleMax=GenericMaximum.Max(doubleArray);
-     System.out.println("Double Max="+doubleMax);
-     strMax=GenericMaximum.Max(strArray);
-     System.out.println("String Max="+strMax);
-     
-     
-     
-}
-	
 }
