@@ -8,7 +8,8 @@ public class GenericMaximum {
 		E m;
 		m=elements[0];
 		for(E e:elements)
-		{if(e.compareTo(m)>0);
+		{
+			if(e.compareTo(m)>0)
 		{
 			m=e;
 		}
@@ -19,7 +20,7 @@ public class GenericMaximum {
 public static void main(String[] arg) {
 	 Integer[] intArray = {2,7,6,21,40};
 	 Integer intMax;
-     Double[] doubleArray = { 1.0,50.0,100.5,20.4,46.21};
+     Double[] doubleArray = { 1.0,50.7,1.5,20.4,46.2};
      Double doubleMax;
      String[] strArray= {"suri","vox","problem","eee","subject"};
      String strMax;
