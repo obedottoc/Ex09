@@ -1,3 +1,9 @@
+/***
+* EXPERIMENT-09
+*developed by Nithishkumar
+*Saveetha Engineering College
+*jpnithishkumar@gmail.com
+*/
 package maximum;
 
 public class GenericMaximum {
@@ -19,9 +25,9 @@ public class GenericMaximum {
 	}
 
 	public static void main(String[] args) {
-		Integer []intArray= {1,2,3,4,5};
+		Integer []intArray= {25,84,13,44,65};
 		Integer intMax;
-		Double []doubleArray= {1.1,1.2,1.3,1.4};
+		Double []doubleArray= {5.1,8.2,11.3,21.4};
 		Double DoubleMax;
 		String []strArray= {"HELLO","WORLD","YEP"};
 		String strMax;
