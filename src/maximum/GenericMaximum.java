@@ -1,3 +1,10 @@
+/*
+ * package for generic function
+ * authour@ N.pavithra
+ * student,saveetha ngineering college
+ * npavithra1405@gmail.com
+ */
+
 package maximum;
 public class  GenericMaximum{
 
