@@ -26,10 +26,10 @@ public class Genericelement {
         String[] strArray= {"apple","orange","banana","welcome"};
         String strMax;
         intMax=max(intArray);
-        System.out.println("Max integer: "+intMax);
+        System.out.println("MAX integer: "+intMax);
         doubleMax=max(doubleArray);
-        System.out.println("Max double: "+doubleMax);
+        System.out.println("MAX double: "+doubleMax);
         strMax=max(strArray);
-        System.out.println("Max string: "+strMax);
+        System.out.println("MAX string: "+strMax);
     }
 }
