@@ -11,11 +11,11 @@ public class Genericelement {
       m=element[0];
       for(T e:element)
       {
-          if(e.compareTo(m)>0)
-              m=e;
+             if(e.compareTo(m)>0)
+                m=e;
       }
        
-      return m;
+         return m;
     }
 
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class Genericelement {
         Integer intMax;
         Double[] doubleArray= {1.1,2.2,3.3,4.4};
         Double doubleMax;
-        String[] strArray= {"apple","orange","banana","welcome"};
+        String[] strArray= {"Apple","Orange","Banana","Welcome"};
         String strMax;
         intMax=max(intArray);
         System.out.println("MAX integer: "+intMax);
