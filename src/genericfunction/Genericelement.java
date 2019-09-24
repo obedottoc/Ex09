@@ -1,8 +1,8 @@
-/**
- * To create generic function
- * @author harsha vardhan reddy
- * reddyharsha298@gmail.com
- */
+//*created by roopesh
+//*1roopesh3@gmail.com
+
+ //** this program is written to create generic function.
+ 
 package genericfunction;
 
 public class Genericelement {
