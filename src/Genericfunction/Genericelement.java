@@ -1,3 +1,8 @@
+/**
+ *created by Aakash.v
+ * aakashvelu26@gmail.com
+ * ex09
+ */
 package Genericfunction;
 
 public class Genericelement {
@@ -21,7 +26,7 @@ public class Genericelement {
 		Integer intmax;
 		Double[] doubleArray= {1.1,2.2,3.3,4.4};
 		Double doublemax;
-		String[]StringArray= {"kaushik","bairavan","meeran","agnal"};
+		String[]StringArray= {"kaushik","","meeran","agnal"};
 		String StrArray;
 		intmax=Genericelement.max(intArray);
 		System.out.println("intmax="+intmax);
