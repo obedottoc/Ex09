@@ -1,7 +1,3 @@
-/**created by M.uday kanth,eee-b,
- * 212217105037
- * 
- */ 
 package maximum;
   public class GenericMaximum {
 	 public static <E extends Comparable<E>> E max (E[] element)
@@ -30,7 +26,6 @@ package maximum;
 		strMax=max(strArray);
 		System.out.println("Maximum of given string:"+strMax);
 		
-
 
 	}
 
