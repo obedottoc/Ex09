@@ -16,7 +16,7 @@ public class Genericmaximum {
 	public static void main(String[] args) {
 		Integer[] intArray= {1,5,6,8};
 		Double[] doubleArray= {2.8,5.3,6.8,9.5};
-		String[] stringArray= {"yogi","maari","mohan","sarathi"};
+		String[] stringArray= {"gu","maari","mohan","sarathi"};
 		Integer intmax;
 		Double doublemax;
 		String stringmax;
