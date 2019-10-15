@@ -13,8 +13,8 @@ public class Genericfunction {
       m=element[0];
       for(T e:element)
       {
-          if(e.compareTo(m)>0)
-           m=e;
+       if(e.compareTo(m)>0)
+       m=e;
       }
        
       return m;
@@ -34,5 +34,6 @@ public class Genericfunction {
         strMax=max(strArray);
         System.out.println("Max string: "+strMax);
     }
+    
 }
 
